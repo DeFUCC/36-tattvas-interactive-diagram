@@ -1,0 +1,431 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 566.93 566.93">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #394b66;
+      }
+
+      .cls-3 {
+        fill: #f9bfc5;
+      }
+
+      .cls-4 {
+        fill: #a6def3;
+      }
+
+      .cls-5 {
+        fill: #605423;
+      }
+
+      .cls-6 {
+        fill: #787878;
+      }
+
+      .cls-7 {
+        fill: #231f20;
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        stroke: #231f20;
+        stroke-linejoin: round;
+      }
+
+      .cls-10 {
+        stroke: #020202;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11 {
+        fill: #bcbec0;
+      }
+
+      .cls-12 {
+        fill: #5b6069;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-14 {
+        opacity: 0.29;
+        mix-blend-mode: overlay;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-15 {
+        fill: #3b1743;
+      }
+
+      .cls-16 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-17 {
+        fill: #fff;
+      }
+
+      .cls-18 {
+        fill: #fff200;
+      }
+
+      .cls-19 {
+        fill: #69cce2;
+      }
+
+      .cls-20 {
+        fill: #41b8ea;
+      }
+
+      .cls-21 {
+        fill: #4064af;
+      }
+
+      .cls-22 {
+        fill: #2b3894;
+      }
+
+      .cls-23 {
+        fill: #c5b4a3;
+      }
+
+      .cls-24 {
+        fill: #caebf8;
+      }
+
+      .cls-25 {
+        fill: #939598;
+      }
+
+      .cls-26 {
+        fill: #fcf8c7;
+      }
+
+      .cls-27 {
+        fill: #6dbe45;
+      }
+
+      .cls-28 {
+        fill: #5bba47;
+      }
+
+      .cls-29 {
+        fill: #1cb24b;
+      }
+
+      .cls-30 {
+        fill: #218a43;
+      }
+
+      .cls-31 {
+        fill: #936427;
+      }
+
+      .cls-32 {
+        fill: #72351c;
+      }
+
+      .cls-33 {
+        fill: #562416;
+      }
+
+      .cls-34 {
+        fill: #32160f;
+      }
+
+      .cls-35 {
+        fill: #ed1f24;
+      }
+
+      .cls-36 {
+        fill: #cb2027;
+      }
+
+      .cls-37 {
+        fill: #a91e22;
+      }
+
+      .cls-38 {
+        fill: #831618;
+      }
+
+      .cls-39 {
+        fill: #a8509f;
+      }
+
+      .cls-40 {
+        fill: #9c4098;
+      }
+
+      .cls-41 {
+        fill: #863a96;
+      }
+
+      .cls-42 {
+        fill: #7e2a90;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <polygon class="cls-1" points="152.24 282.65 20.91 55.19 546.02 55.19 414.5 282.98 152.24 282.65"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="100.79" cy="442.75" r="131.84" gradientTransform="translate(80.68 -762.52) scale(2.14 2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d07728"/>
+      <stop offset="0.54" stop-color="#623813"/>
+      <stop offset="1" stop-color="#010101"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="288.3" cy="60.29" r="526.56" gradientTransform="matrix(1, 0, 0, 0.3, 0.06, 41.32)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.08" stop-color="#fffffc"/>
+      <stop offset="0.13" stop-color="#fffef3"/>
+      <stop offset="0.17" stop-color="#fffee4"/>
+      <stop offset="0.21" stop-color="#fffdce"/>
+      <stop offset="0.25" stop-color="#fffbb3"/>
+      <stop offset="0.28" stop-color="#fff990"/>
+      <stop offset="0.32" stop-color="#fff767"/>
+      <stop offset="0.35" stop-color="#fff538"/>
+      <stop offset="0.38" stop-color="#fff204"/>
+      <stop offset="0.38" stop-color="#fff200"/>
+      <stop offset="0.41" stop-color="#fee504"/>
+      <stop offset="0.53" stop-color="#fab812"/>
+      <stop offset="0.62" stop-color="#f89c1b"/>
+      <stop offset="0.67" stop-color="#f7911e"/>
+      <stop offset="0.78" stop-color="#f7901e"/>
+      <stop offset="0.8" stop-color="#f7901e" stop-opacity="0.96"/>
+      <stop offset="0.83" stop-color="#f7901e" stop-opacity="0.87"/>
+      <stop offset="0.87" stop-color="#f7901e" stop-opacity="0.71"/>
+      <stop offset="0.91" stop-color="#f7901e" stop-opacity="0.49"/>
+      <stop offset="0.96" stop-color="#f7901e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f7901e" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="New_Symbol" data-name="New Symbol" viewBox="0 0 17.01 9.83">
+      <path class="cls-2" d="M0,4.94A16.92,16.92,0,0,0,8.51,7.22,17,17,0,0,0,17,5h0A9.82,9.82,0,0,1,8.51,9.83,9.82,9.82,0,0,1,0,4.93"/>
+      <path class="cls-3" d="M8.51,7.18A16.86,16.86,0,0,0,17,4.93,16.93,16.93,0,0,0,8.5,2.68"/>
+      <path class="cls-4" d="M8.5,2.68A16.89,16.89,0,0,0,.05,4.92,16.84,16.84,0,0,0,8.51,7.18"/>
+      <path class="cls-5" d="M17,4.93A16.86,16.86,0,0,0,0,5H0a9.77,9.77,0,0,1,17-.09"/>
+      <path class="cls-6" d="M6.24,4.93A2.25,2.25,0,1,1,8.49,7.18,2.25,2.25,0,0,1,6.24,4.93Z"/>
+      <path class="cls-7" d="M7.26,4.93A1.23,1.23,0,1,1,8.49,6.16,1.23,1.23,0,0,1,7.26,4.93Z"/>
+    </symbol>
+  </defs>
+  <title>saccidananda</title>
+  <g class="cls-8">
+    <g id="cit">
+      <line class="cls-9" x1="217.72" y1="398.02" x2="349.04" y2="398.02"/>
+      <line class="cls-10" x1="282.8" y1="435.76" x2="320.94" y2="446.78"/>
+      <polygon class="cls-11" points="414.62 284.23 349.04 398.01 325.38 439.07 283.46 511.81 241.48 439.12 217.72 398.01 152.13 284.51 414.62 284.23"/>
+      <polygon class="cls-9" points="414.69 284.33 546.02 511.8 20.91 511.8 152.43 284 414.69 284.33"/>
+      <path class="cls-12" d="M152,283.57a263.31,263.31,0,0,0,262.75.13l0,0A151.91,151.91,0,0,1,152,283.36"/>
+      <g class="cls-13">
+        <rect class="cls-14" x="19.6" y="-160.48" width="550.33" height="528.79"/>
+        <polyline class="cls-15" points="152.85 283.36 414.5 282.98 472.95 183.37 92.42 183.37"/>
+        <g>
+          <use width="17.01" height="9.83" transform="translate(129.27 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(104.61 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(80.15 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(153.76 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(203.04 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(178.38 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(227.53 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(276.65 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(251.99 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(301.14 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(350.42 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(325.76 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(374.91 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(399.3 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(448.57 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(423.92 176.28) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(117 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(92.35 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(141.5 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(190.77 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(166.12 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(215.27 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(264.38 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(239.73 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(288.88 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(338.15 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(313.5 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(362.65 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(387.03 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(411.65 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(436.24 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(129.27 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(104.61 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(153.76 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(203.04 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(178.38 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(227.53 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(276.65 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(251.99 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(301.14 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(350.42 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(325.76 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(374.91 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(399.3 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(423.92 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(448.39 198.82) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(117 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(141.5 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(190.77 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(166.12 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(215.27 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(264.38 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(239.73 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(288.88 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(338.15 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(313.5 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(362.65 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(387.03 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(411.65 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(436.24 210.1) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(129.27 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(104.61 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(153.76 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(203.04 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(178.38 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(227.53 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(276.65 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(251.99 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(301.14 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(350.42 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(325.76 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(374.91 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(399.3 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(423.92 221.52) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(117 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(141.5 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(190.77 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(166.12 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(215.27 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(264.38 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(239.73 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(288.88 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(338.15 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(313.5 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(362.65 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(387.03 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(411.65 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(436.24 232.8) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(129.27 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(104.61 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(153.76 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(203.04 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(178.38 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(227.53 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(276.65 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(251.99 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(301.14 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(350.42 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(325.76 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(374.91 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(399.3 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(423.92 244.29) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(117 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(141.5 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(190.77 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(166.12 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(215.27 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(264.38 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(239.73 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(288.88 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(338.15 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(313.5 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(362.65 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(387.03 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(411.65 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(436.24 255.58) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(129.27 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(104.61 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(153.76 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(203.04 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(178.38 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(227.53 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(276.65 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(251.99 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(301.14 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(350.42 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(325.76 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(374.91 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(399.3 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(423.92 266.95) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(117 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(141.5 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(190.77 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(166.12 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(215.27 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(264.38 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(239.73 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(288.88 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(338.15 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(313.5 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(362.65 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(387.03 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(411.65 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(436.24 278.23) scale(1.44)" xlink:href="#New_Symbol"/>
+          <use width="17.01" height="9.83" transform="translate(460.86 187.57) scale(1.44)" xlink:href="#New_Symbol"/>
+        </g>
+      </g>
+      <polygon class="cls-16" points="20.91 55.19 545.77 54.99 450.39 220.71 114.25 217.18 20.91 55.19"/>
+      <polygon class="cls-1" points="152.24 282.65 20.91 55.19 546.02 55.19 414.5 282.98 152.24 282.65"/>
+      <polygon class="cls-17" points="239.69 435.76 283.46 359.94 327.24 435.76 239.69 435.76"/>
+      <polygon class="cls-7" points="307.37 435.76 283.46 477.17 259.56 435.76 307.37 435.76"/>
+      <line class="cls-1" x1="217.72" y1="398.01" x2="152.91" y2="284.8"/>
+      <polygon class="cls-18" points="266.07 87.17 283.46 57.04 300.83 87.12 266.07 87.17"/>
+      <g>
+        <path class="cls-19" d="M217.72,398,152.91,284.8A260.38,260.38,0,0,0,178.58,398h39.14"/>
+        <path class="cls-20" d="M152.91,284.8A260.38,260.38,0,0,0,178.58,398H137.32a151.5,151.5,0,0,1,15.55-113.9"/>
+        <path class="cls-21" d="M152.87,284.12A151.5,151.5,0,0,0,137.32,398H117.69a159.39,159.39,0,0,1-.89-16.92c0-31.53,23.1-71.35,36.07-96.78"/>
+        <path class="cls-22" d="M152.43,284,86.57,398.07l-.09-.05h31.21a159.39,159.39,0,0,1-.89-16.92c0-31.53,23.1-71.35,36.07-96.78"/>
+      </g>
+      <path class="cls-23" d="M152.87,284.12a151,151,0,0,1,260.35-1.43"/>
+      <path class="cls-24" d="M283.29,249.43a261.15,261.15,0,0,0-130.44,34.68A260.74,260.74,0,0,0,283.46,319"/>
+      <path class="cls-3" d="M283.29,319V249.43a261.23,261.23,0,0,1,130.62,34.78A260.74,260.74,0,0,1,283.46,319"/>
+      <path class="cls-25" d="M248.4,284.19A34.76,34.76,0,1,1,283.16,319,34.76,34.76,0,0,1,248.4,284.19Z"/>
+      <path class="cls-26" d="M264.17,284.19a19,19,0,1,1,19,19A19,19,0,0,1,264.17,284.19Z"/>
+      <g>
+        <path class="cls-27" d="M178.58,398q4.17,8.72,9,17.23a263.5,263.5,0,0,0,28.12,40l30-8.71-28-48.49Z"/>
+        <path class="cls-28" d="M176.6,466.59l39.15-11.37a263.5,263.5,0,0,1-28.12-40q-4.87-8.52-9-17.23H137.32a150.88,150.88,0,0,0,39.37,68.67"/>
+        <path class="cls-29" d="M176.69,466.69A150.88,150.88,0,0,1,137.32,398H117.69a154.93,154.93,0,0,0,30.37,76.86h0l28.54-8.29"/>
+        <path class="cls-30" d="M148.06,474.88,20.91,511.8,86.57,398.07l31.12-.05a154.93,154.93,0,0,0,30.37,76.86"/>
+      </g>
+      <g>
+        <g>
+          <path class="cls-31" d="M215.75,455.22l30-8.71,37.07,64.73A260.29,260.29,0,0,1,215.75,455.22Z"/>
+          <path class="cls-31" d="M282.82,511.24l38.12-64.46,30.33,8.76h0a260.2,260.2,0,0,1-66.79,55.7"/>
+        </g>
+        <g>
+          <path class="cls-32" d="M283.46,510.92a150.49,150.49,0,0,1-106.77-44.23l-.09-.1,39.15-11.37a260.29,260.29,0,0,0,67.07,56"/>
+          <path class="cls-32" d="M284.48,511.24a260.2,260.2,0,0,0,66.79-55.7h0l38.89,11.23h0a150.49,150.49,0,0,1-106.69,44.15"/>
+        </g>
+        <g>
+          <path class="cls-33" d="M283.46,511.8H186.29a168.86,168.86,0,0,1-38.23-36.92h0l28.54-8.29.09.1a150.49,150.49,0,0,0,106.77,44.23"/>
+          <path class="cls-33" d="M283.46,510.92a150.49,150.49,0,0,0,106.69-44.15h0l28.28,8.17h0A171,171,0,0,1,380.2,511.8H283.46"/>
+        </g>
+        <g>
+          <path class="cls-34" d="M186.29,511.8a168.86,168.86,0,0,1-38.23-36.92L20.91,511.8H186.29"/>
+          <path class="cls-34" d="M418.45,474.94A171,171,0,0,1,380.2,511.8H546L418.44,474.94"/>
+        </g>
+      </g>
+      <g>
+        <path class="cls-35" d="M351.27,455.54l-30.33-8.76L349,398h39.67q-4.17,8.72-9,17.23a263.14,263.14,0,0,1-28.39,40.29"/>
+        <path class="cls-36" d="M390.15,466.77A150.69,150.69,0,0,0,429.6,398H388.71q-4.17,8.72-9,17.23a263.14,263.14,0,0,1-28.39,40.29h0l38.89,11.23"/>
+        <path class="cls-37" d="M418.45,474.94A156.33,156.33,0,0,0,449.3,398H429.6a150.69,150.69,0,0,1-39.45,68.75h0l28.28,8.17"/>
+        <path class="cls-38" d="M480.55,398H449.3a156.33,156.33,0,0,1-30.85,76.92h0L546,511.8,480.39,398.12"/>
+      </g>
+      <g>
+        <path class="cls-39" d="M414.62,284.23,349,398h39.67A260.1,260.1,0,0,0,414.38,284.8"/>
+        <path class="cls-40" d="M414.38,284.8A260.1,260.1,0,0,1,388.71,398H429.6a151.4,151.4,0,0,0-16.38-115.33"/>
+        <path class="cls-41" d="M449.3,398a161.51,161.51,0,0,0,1-17.88c0-32.21-23.59-71.66-37.07-97.45A151.4,151.4,0,0,1,429.6,398Z"/>
+        <path class="cls-42" d="M414.69,284.34l65.7,113.78.16-.1H449.3a161.51,161.51,0,0,0,1-17.88c0-32.21-23.59-71.66-37.07-97.45"/>
+      </g>
+    </g>
+  </g>
+</svg>

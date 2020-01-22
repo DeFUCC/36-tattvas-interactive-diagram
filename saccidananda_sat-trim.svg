@@ -1,0 +1,26 @@
+<svg id="ananda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 453.54 453.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7901e;
+      }
+
+      .cls-2 {
+        fill: #fed402;
+      }
+
+      .cls-3 {
+        fill: #fff200;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>saccidananda</title>
+  <rect id="sadvidya" class="cls-1" width="453.54" height="453.54"/>
+  <circle id="ishvara" class="cls-2" cx="226.77" cy="226.77" r="199.13" transform="translate(-93.93 226.77) rotate(-45)"/>
+  <path id="sadashiva" class="cls-3" d="M226.63,27.64C329.77,87.31,399.16,198.83,399.16,326.56h0C348.52,349.08,289.57,362,226.65,362s-121.94-12.93-172.6-35.47v0C54,198.83,123.43,87.31,226.57,27.64"/>
+  <polygon id="anuttara" class="cls-4" points="54.04 326.56 226.59 27.69 399.14 326.56 54.04 326.56"/>
+</svg>
