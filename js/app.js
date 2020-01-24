@@ -15,7 +15,51 @@ const ct = new Vue({
   methods: {
     resize() {
       this.svg.fitBounds(paper.view.bounds);
-    }
+    },
+    setListeners() {
+      this.svg.getItems({class:paper.Path}).forEach( item => {
+          let light = item.fillColor.lightness;
+          let opacity = item.opacity;
+          let tween = {stop(){}};
+
+          item.onMouseEnter = (event) => {
+            tween.stop();
+            item.strokeColor='#fff';
+            tween = item.tween({
+              'fillColor.lightness': Math.sqrt(light),
+              opacity:1,
+              strokeWidth:1,
+              },
+              {
+                easing:'easeInOutCubic',
+                duration:300
+              }
+            );
+          }
+
+          item.onClick = (event) => {
+            this.tattva = {num:item.id};
+            if (tattvas.hasOwnProperty(item.name)) {
+              this.tattva = tattvas[item.name]
+            }
+          }
+
+          item.onMouseLeave = (event) => {
+            tween.stop();
+            item.tweenTo({
+              'fillColor.lightness': light,
+              opacity:opacity,
+              strokeWidth:0,
+              },
+              {
+                easing:'easeInOutCubic',
+                duration:300
+              }
+            );
+          }
+
+      })
+    },
   },
   watch: {
 
@@ -28,33 +72,7 @@ const ct = new Vue({
       this.svg=svg;
       paper.view.onResize = this.resize;
       this.resize();
-
-      svg.getItems({class:paper.Path}).forEach( item => {
-
-          let light = item.fillColor.lightness;
-          let tween = {stop(){}};
-
-          item.onMouseEnter = (event) => {
-            tween.stop();
-            item.strokeWidth=1;
-            item.strokeColor='#fff';
-            tween = item.tween({'fillColor.lightness':Math.sqrt(light)}, {easing:'easeInOutCubic', duration:300});
-          }
-
-          item.onClick = (event) => {
-            this.tattva = item.id;
-            if (tattvas.hasOwnProperty(item.name)) {
-              this.tattva = tattvas[item.name]
-            }
-          }
-
-          item.onMouseLeave = (event) => {
-            item.strokeWidth=0;
-            tween.stop();
-            item.tweenTo({'fillColor.lightness':light}, {easing:'easeInOutCubic', duration:300})
-          }
-
-      })
+      this.setListeners();
     })
 
   },

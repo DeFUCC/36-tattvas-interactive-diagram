@@ -2,6 +2,11 @@ body{
   margin:0;
   padding:0;
   font-family: sans-serif;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
 }
 
 #ananda-app {
@@ -22,23 +27,33 @@ body{
 
 #infobox {
   flex:1 200px;
+  max-width:400px;
   padding:1em;
   position:relative;
 }
 
 .info-row {
   display:flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom:1em;
 }
 
 .title {
   padding:0 0 0 1em;
 }
+.title h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+    overflow-wrap: anywhere;
+}
 
 h2.sans {
   margin:0;
   padding:0;
-  font-size:2em
+  font-size:2em;
+  font-weight: normal;
 }
 h3.trans {
   font-size:1.4em;
@@ -50,6 +65,7 @@ h3.trans {
 
 .trans {
   text-transform: lowercase;
+  text-align: center;
 }
 .number {
   position:absolute;
