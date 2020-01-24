@@ -17,14 +17,26 @@
 <body>
 
 
-  <div id="ananda">
+  <div id="ananda-app">
 
-    <canvas class="paper" id="paper" data-paper-resize="true">
+    <div id="paper-container">
+      <canvas class="paper" id="paper" data-paper-resize="true"></canvas>
+    </div>
 
-    </canvas>
+    <div id="infobox">
+      <div v-if="tattva.num" class="number">{{tattva.num}}  </div>
+      <div class="info-row">
+        <div class="lang">
+          <h2 class="sans">{{tattva.sans}}</h2>
+          <h3 class="trans">{{tattva.trans}}</h3>
+        </div>
+        <div class="title">
+          <h1 > {{tattva.title}}</h1>
+        </div>
+      </div>
 
-    <div class="tattva">
-      {{tattva.number}} {{tattva.sans}} {{tattva.trans}} {{tattva.title}} {{tattva.text}} {{tattva}}
+
+       {{tattva.text}} {{tattva}}
     </div>
 
   </div>

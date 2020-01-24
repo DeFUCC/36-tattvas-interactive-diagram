@@ -1,4 +1,4 @@
-const types= {
+export const groups = {
   mahabhuta: {
     sans:'महाभूतं',
     trans:'MAHĀBHŪTA',
@@ -7,28 +7,53 @@ const types= {
   },
 }
 
-export default {
-
+export const bijas = {
   lam: {
     sans:'लं',
     trans:'laṃ',
     title:'Лам',
-    text:'Пространство Земли',
   },
+}
+
+export const tattvas = {
   prithivi: {
-    number:36,
+    num:36,
     sans:'पृथिवी',
     trans:'Pṛthivī',
     title:'Земля',
-    text:'Всё твердое',
-    type:types.mahabhuta,
+    text:'Твердость. Твердое состояние вещества',
+    group:'mahabhuta',
+    bija:'lam'
+  },
+  apas: {
+    num:35,
+    sans:'आपस्',
+    trans:'Āpas',
+    title:'Вода',
+    text:'Жидкость. Жидкое состояние вещества',
+    group:'mahabhuta',
+    bija:'vam'
+  },
+  akasha: {
+    num:32,
+    sans:'आकाश',
+    trans:'Ākāśa',
+    title:'Эфир',
+    text:'Трёхмерный каркас, в котором существует весь физический мир — Пространство.',
   },
   gandha: {
-    number:31,
+    num:31,
     sans:'गन्ध',
     trans:'Gandha',
     title:'Запах',
     text:'Запах как таковой. Запах чистоты.',
   },
 
+  sadashiva: {
+    num:3,
+    sans:'सदाशिव',
+    trans:'Sadāśiva',
+    title:'Садашива',
+    text:'обиталище Icchāśakti или Силы Воли. Здесь появляется туманная Вселенная. Сознание принимает форму “Я есть Это” (“Я — эта туманная Вселенная”). Вселенная только появляется и потому предстаёт размытой. Так как Вселенная ещё не сформировалась, “Я” преобладает.',
+  },
 }

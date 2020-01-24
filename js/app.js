@@ -1,12 +1,13 @@
-import tattvas from './tattvas.js'
+import {groups, bijas, tattvas} from './tattvas.js'
 
 const ct = new Vue({
-  el:"#ananda",
+  el:"#ananda-app",
   components: {
 
   },
   data: {
     url:'svg/clean-ananda.svg',
+    loaded:false,
     tattva:{},
     svg:{},
     selected:null,
@@ -23,6 +24,7 @@ const ct = new Vue({
     paper.setup(document.getElementById('paper'));
 
     paper.project.importSVG(this.url, (svg) => {
+      this.loaded=true;
       this.svg=svg;
       paper.view.onResize = this.resize;
       this.resize();
