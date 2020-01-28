@@ -44,6 +44,31 @@ export const bijas = {
     trans:'laṃ',
     title:'Лам',
   },
+  vam: {
+    sans:'वं',
+    trans:'vaṃ',
+    title:'Вам',
+  },
+  ram: {
+    sans:'रं',
+    trans:'raṃ',
+    title:'Рам',
+  },
+  yam: {
+    sans:'यं',
+    trans:'yaṃ',
+    title:'Ям',
+  },
+  ham: {
+    sans:'हं',
+    trans:'haṃ',
+    title:'Хам',
+  },
+  om: {
+    sans:'ॐ',
+    trans:'oṃ',
+    title:'Ом',
+  },
 }
 
 export const tattvas = {

@@ -24,7 +24,6 @@
     </div>
 
     <div id="infobox">
-      <div v-if="tattva.num" class="number">{{tattva.num}}  </div>
       <div class="info-row">
         <div class="lang">
           <h2 class="sans">{{tattva.sans}}</h2>
@@ -32,6 +31,16 @@
         </div>
         <div class="title">
           <h1> {{tattva.title}}</h1>
+        </div>
+        <div v-if="tattva.num" class="number">
+          <div class="cycle" @click="cycle(1)">
+            &#9650;
+          </div><div class="tat-num">
+            {{tattva.num}}
+          </div>
+          <div class="cycle" @click="cycle(-1)">
+            &#9660;
+          </div>
         </div>
       </div>
 

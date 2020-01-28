@@ -16,48 +16,44 @@ const ct = new Vue({
     resize() {
       this.svg.fitBounds(paper.view.bounds);
     },
+    cycle(dir) {
+
+    },
+    hover(event) {
+      let target = event.target;
+      target.light = target.fillColor.lightness;
+      target.op = target.opacity;
+      if (target.tweener) {
+        target.tweener.stop();
+      }
+      target.tweener = target.tween({
+        'fillColor.lightness': Math.sqrt(target.light),
+        opacity:1,
+        },{easing:'easeInOutCubic', duration:300}
+      )
+    },
+    leave(event) {
+      let target = event.target;
+      target.tweener.stop();
+      target.tweenTo({
+        'fillColor.lightness': target.light,
+        opacity:target.op,
+        strokeWidth:0,
+        }, {easing:'easeInOutCubic', duration:300}
+      );
+    },
+    clicker(event) {
+      let target = event.target;
+      this.tattva = {num:target.id};
+      if (tattvas.hasOwnProperty(target.name)) {
+        this.tattva = tattvas[target.name]
+      }
+    },
     setListeners() {
       this.svg.getItems({class:paper.Path}).forEach( item => {
-          let light = item.fillColor.lightness;
-          let opacity = item.opacity;
-          let tween = {stop(){}};
-
-          item.onMouseEnter = (event) => {
-            tween.stop();
-            item.strokeColor='#fff';
-            tween = item.tween({
-              'fillColor.lightness': Math.sqrt(light),
-              opacity:1,
-              strokeWidth:1,
-              },
-              {
-                easing:'easeInOutCubic',
-                duration:300
-              }
-            );
-          }
-
-          item.onClick = (event) => {
-            this.tattva = {num:item.id};
-            if (tattvas.hasOwnProperty(item.name)) {
-              this.tattva = tattvas[item.name]
-            }
-          }
-
-          item.onMouseLeave = (event) => {
-            tween.stop();
-            item.tweenTo({
-              'fillColor.lightness': light,
-              opacity:opacity,
-              strokeWidth:0,
-              },
-              {
-                easing:'easeInOutCubic',
-                duration:300
-              }
-            );
-          }
-
+          item.onMouseEnter = this.hover
+          item.onMouseLeave = this.leave
+          item.onClick = this.clicker
       })
     },
   },

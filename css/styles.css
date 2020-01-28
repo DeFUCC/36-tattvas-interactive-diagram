@@ -42,6 +42,7 @@ body{
 
 .title {
   padding:0 0 0 1em;
+  flex:1 1 60%;
 }
 .title h1 {
     font-size: 1.8em;
@@ -68,7 +69,14 @@ h3.trans {
   text-align: center;
 }
 .number {
-  position:absolute;
+  align-self:baseline;
   right:1em;
   top:1em;
+}
+.tat-num {
+  text-align: center;
+}
+.cycle {
+  padding:2px;
+  cursor: pointer;
 }
