@@ -6,7 +6,9 @@ const ct = new Vue({
 
   },
   data: {
-    url:'svg/clean-ananda.svg',
+    url:'',
+    urls:['svg/clean-ananda.svg','svg/cit-clean.svg'],
+    currentUrl:0,
     loaded:false,
     tattva:{},
     svg:{},
@@ -17,7 +19,16 @@ const ct = new Vue({
       this.svg.fitBounds(paper.view.bounds);
     },
     cycle(dir) {
+      let num = this.tattva.num+dir;
+      for (let key in tattvas) {
+        if (tattvas[key].num==num) {
+          this.tattva=tattvas[key]
+        }
+      }
+    },
+    changeUrl() {
 
+      this.url = this.urls[this.currentUrl+1];
     },
     hover(event) {
       let target = event.target;
@@ -44,7 +55,7 @@ const ct = new Vue({
     },
     clicker(event) {
       let target = event.target;
-      this.tattva = {num:target.id};
+      this.tattva = { num:target.id };
       if (tattvas.hasOwnProperty(target.name)) {
         this.tattva = tattvas[target.name]
       }
@@ -58,18 +69,20 @@ const ct = new Vue({
     },
   },
   watch: {
-
+    url(value) {
+      paper.project.importSVG(this.url, (svg) => {
+        this.loaded=true;
+        this.svg=svg;
+        paper.view.onResize = this.resize;
+        this.resize();
+        this.setListeners();
+      })
+    }
   },
   mounted() {
     paper.setup(document.getElementById('paper'));
+    this.url = this.urls[this.currentUrl];
 
-    paper.project.importSVG(this.url, (svg) => {
-      this.loaded=true;
-      this.svg=svg;
-      paper.view.onResize = this.resize;
-      this.resize();
-      this.setListeners();
-    })
 
   },
 });
