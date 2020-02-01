@@ -1,4 +1,4 @@
-import {groups, bijas, tattvas} from './tattvas.js'
+import {groups, chakras, bijas, tattvas} from './tattvas.js'
 
 const ct = new Vue({
   el:"#ananda-app",
@@ -16,14 +16,14 @@ const ct = new Vue({
         rus:'Сат',
       },
       {
-        url:'svg/cit-fresh.svg',
+        url:'svg/cit.svg',
         title:'Сознание',
         sans:'चित्',
         trans:'cit',
         rus:'Чит',
       },
       {
-        url:'svg/clean-ananda.svg',
+        url:'svg/ananda.svg',
         title:'Блаженство',
         sans:'आनन्द',
         trans:'ānanda',
@@ -56,6 +56,11 @@ const ct = new Vue({
       }
       this.pic = this.pics[this.currentPic]
     },
+    getGroup(group) {
+      if (group && groups[group]) {
+        return groups[group].name
+      }
+    },
     hover(event) {
       let target = event.target;
       target.light = target.fillColor.lightness;
@@ -84,15 +89,45 @@ const ct = new Vue({
       this.tattva = { num:target.id };
       if (tattvas.hasOwnProperty(target.name)) {
         this.tattva = tattvas[target.name]
+        if (typeof this.tattva.group === 'string') {
+          this.tattva.group = groups[this.tattva.group]
+        }
+      }
+      if (chakras.hasOwnProperty(target.name)) {
+        this.tattva = chakras[target.name];
+        this.tattva.num = 0;
+        this.tattva.group = {
+          sans:'चक्र',
+          trans:'cakra',
+          name:'Чакра'
+        }
       }
     },
-    setListeners() {
+    tattvaListeners() {
       for (name in tattvas) {
-        this.svg.getItems({name:name}).forEach( item => {
-          item.onMouseEnter = this.hover
-          item.onMouseLeave = this.leave
-          item.onClick = this.clicker
-        })
+        this.svg.getItems({
+            name:(itemName) => {
+              return itemName && itemName.includes(name)
+            }
+          }).forEach( item => {
+            item.name=name;
+            item.onMouseEnter = this.hover
+            item.onMouseLeave = this.leave
+            item.onClick = this.clicker
+          })
+      }
+    },
+    chakraListeners() {
+      for (name in chakras) {
+        this.svg.getItems({
+            name:(itemName) => {
+              return itemName && itemName.includes(name)
+            }
+          }).forEach( item => {
+            item.onMouseEnter = this.hover
+            item.onMouseLeave = this.leave
+            item.onClick = this.clicker
+          })
       }
     },
   },
@@ -104,7 +139,8 @@ const ct = new Vue({
         this.svg=svg;
         paper.view.onResize = this.resize;
         this.resize();
-        this.setListeners();
+        this.tattvaListeners();
+        this.chakraListeners();
       })
     }
   },

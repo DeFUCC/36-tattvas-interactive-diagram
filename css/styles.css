@@ -44,21 +44,28 @@ body{
 .buttons button {
   margin:0 0.2em;
 }
+.group-row {
+  padding:1em 1em 0.6em 1em;
+  background-color: #aaa;
+  font-size: 0.8em;
+}
 .info-row {
+  background-color: #eee;
   display:flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-bottom:1em;
   padding:1em;
+  align-items: center;
 }
 
 .title {
   padding:0 0 0 1em;
-  flex:1 1 60%;
+  flex:1 1 30%;
 }
 .title h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: normal;
     overflow-wrap: anywhere;
 }
