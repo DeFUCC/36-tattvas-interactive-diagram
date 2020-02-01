@@ -24,8 +24,14 @@
     </div>
 
     <div id="infobox">
-      <div class="nav">
-        <button @click="changeUrl">next</button>
+      <div class="nav-row">
+        <div class="title">
+          {{pic.title}}
+        </div>
+        <div class="buttons">
+            <button v-for="picture in pics" @click="pic=picture" :disabled="pic==picture">{{picture.rus}}</button>
+        </div>
+
       </div>
       <div class="info-row">
         <div class="lang">
@@ -46,9 +52,11 @@
           </div>
         </div>
       </div>
+      <div class="text">
+        {{tattva.text}}
+      </div>
 
 
-       {{tattva.text}}
     </div>
 
   </div>
