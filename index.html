@@ -25,13 +25,12 @@
 
     <div id="infobox">
       <div class="nav-row">
-        <div class="title">
-          {{pic.title}}
-        </div>
         <div class="buttons">
             <button v-for="picture in pics" @click="pic=picture" :disabled="pic==picture">{{picture.rus}}</button>
         </div>
-
+        <div class="pic-title">
+          {{pic.title}}
+        </div>
       </div>
       <div v-if="tattva.group" class="group-row">
         {{tattva.group.sans}} &mdash; {{tattva.group.trans.toLowerCase()}} &mdash; {{tattva.group.name}}
@@ -42,9 +41,9 @@
           <h3 class="trans">{{tattva.trans}}</h3>
         </div>
         <div class="title">
-
           <h1>{{tattva.title}}</h1>
         </div>
+        <div class="spacer"></div>
         <div v-if="tattva.num" class="number">
           <div class="cycle" @click="cycle(-1)">
             &#9650;
@@ -57,7 +56,7 @@
         </div>
       </div>
       <div class="text" v-html="tattva.text">
-        
+
       </div>
 
 
