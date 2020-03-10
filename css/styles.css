@@ -43,6 +43,7 @@ body{
 }
 .buttons button {
   margin:0 0.2em;
+  padding:0.5em;
 }
 .group-row {
   padding:1em 1em 0.6em 1em;
