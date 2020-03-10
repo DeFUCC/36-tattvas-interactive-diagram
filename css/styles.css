@@ -12,6 +12,7 @@ body{
 #ananda-app {
   display:flex;
   flex-wrap:wrap;
+  font-size:12pt;
 }
 
 #paper-container {
@@ -32,13 +33,15 @@ body{
 }
 
 .nav-row {
+  display:flex;
+  flex:1 1 100%;
   align-items: center;
   color:#fff;
   padding:1em;
   background-color: #555;
 }
 .buttons {
-  flex:1 1 100%;
+  flex:1 1;
   display:flex;
 }
 .buttons button {
@@ -64,10 +67,8 @@ body{
   flex:10 1 10px;
 }
 .pic-title {
-  padding:1em 0em 0em 0.2em;
-}
-.title {
-
+  padding:0.3em 0 0 0.5em;
+  flex:1 1 100px;
 }
 .title h1 {
     padding-left:0.5em;
