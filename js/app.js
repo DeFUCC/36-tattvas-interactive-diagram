@@ -36,6 +36,13 @@ const ct = new Vue({
     svg:{},
     selected:null,
   },
+  computed: {
+    mdText() {
+      if(this.tattva) {
+        return marked(this.tattva.text)
+      }
+    }
+  },
   methods: {
     resize() {
       this.svg.fitBounds(paper.view.bounds);
@@ -107,7 +114,7 @@ const ct = new Vue({
       for (name in tattvas) {
         this.svg.getItems({
             name:(itemName) => {
-              return itemName && itemName.includes(name)
+              return itemName && itemName.startsWith(name)
             }
           }).forEach( item => {
             item.name=name;
@@ -121,7 +128,7 @@ const ct = new Vue({
       for (name in chakras) {
         this.svg.getItems({
             name:(itemName) => {
-              return itemName && itemName.includes(name)
+              return itemName && itemName.startsWith(name)
             }
           }).forEach( item => {
             item.onMouseEnter = this.hover

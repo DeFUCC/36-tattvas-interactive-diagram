@@ -9,7 +9,8 @@
 
   <script src="assets/vue.js"></script>
   <script src="assets/ola.min.js"></script>
-  <script type="text/javascript" src="assets/paper-full.js"></script>
+  <script src="assets/marked.min.js"></script>
+  <script src="assets/paper-full.js"></script>
 
 
 </head>
@@ -37,7 +38,7 @@
       <div v-if="tattva.group" class="group-row">
         {{tattva.group.sans}} &mdash; {{tattva.group.trans.toLowerCase()}} &mdash; {{tattva.group.name}}
       </div>
-      <div class="info-row">
+      <div v-if="tattva.title" class="info-row">
         <div class="lang">
           <h2 class="sans">{{tattva.sans}}</h2>
           <h3 class="trans">{{tattva.trans}}</h3>
