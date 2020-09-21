@@ -1,75 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
-
-<head>
-  <meta charset="utf-8">
-  <title>36 tattvas interactive chart</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="css/styles.css" />
-
-  <script src="assets/vue.js"></script>
-  <script src="assets/ola.min.js"></script>
-  <script src="assets/marked.min.js"></script>
-  <script src="assets/paper-full.js"></script>
-
-
-</head>
-
-<body>
-
-
-  <div id="ananda-app">
-    <div class="nav-row">
-
-      <div class="buttons">
-          <button v-for="picture in pics" @click="pic=picture" :disabled="pic==picture">{{picture.rus}}</button>
-      </div>
-      <div class="pic-title">
-        {{pic.title}}
-      </div>
-      <div class="spacer"></div>
-    </div>
-    <div id="paper-container">
-      <canvas class="paper" id="paper" data-paper-resize="true"></canvas>
-    </div>
-
-    <div id="infobox">
-
-      <div v-if="tattva.group" class="group-row">
-        {{tattva.group.sans}} &mdash; {{tattva.group.trans.toLowerCase()}} &mdash; {{tattva.group.name}}
-      </div>
-      <div v-if="tattva.title" class="info-row">
-        <div class="lang">
-          <h2 class="sans">{{tattva.sans}}</h2>
-          <h3 class="trans">{{tattva.trans}}</h3>
-        </div>
-        <div class="title">
-          <h1>{{tattva.title}}</h1>
-        </div>
-        <div class="spacer"></div>
-        <div v-if="tattva.num" class="number">
-          <div class="cycle" @click="cycle(-1)">
-            &#9650;
-          </div><div class="tat-num">
-            {{tattva.num}}
-          </div>
-          <div class="cycle" @click="cycle(1)">
-            &#9660;
-          </div>
-        </div>
-      </div>
-      <div class="text" v-html="tattva.text">
-
-      </div>
-
-
-    </div>
-
-  </div>
-
-
-  <script type="module" src="js/app.js"></script>
-
-</body>
-
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Santana</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="tattvas.js"></script>
+		<script src="vue.global.prod.js"></script>
+	</head>
+	<body>
+		
+		<article id="yantra-app">
+			
+		</article>
+		<script src="yantras.js"></script>
+	</body>
 </html>

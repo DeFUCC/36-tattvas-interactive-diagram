@@ -1,0 +1,62 @@
+:root {
+  --size: 100%;
+}
+
+object {
+  max-width: var(--size);
+  min-width: var(--size);
+}
+
+object svg {
+  cursor: pointer;
+}
+
+#yantra-app > section {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  max-height: 100%;
+  overflow-y: scroll;
+  background-color: hsla(0,0%, 100%, 0.5);
+}
+
+.overlay .info {
+  font-family: 'Noto sans', sans-serif;
+  padding: 2em;
+}
+
+section {
+  font-family: 'Noto sans', sans-serif;
+  margin: 3em 0 0 0;
+  padding: 0 0 3em 0;
+  border-bottom: 1px solid #333;
+}
+
+.overlay.open {
+  display: block;
+  opacity: 1;
+}
+
+.sanskrt, .sanskrit {
+    font-weight: 500;
+    font-size: 2em;
+    margin: 12px 0;
+    line-height: 1.42;
+    font-family: 'Mukta';
+}
+
+.transcript {
+    font-size: 1.2em;
+    color: #999;
+    margin: 12px 0;
+}
